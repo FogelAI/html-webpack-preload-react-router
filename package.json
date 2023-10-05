@@ -1,0 +1,30 @@
+{
+  "name": "html-webpack-preload-react-router",
+  "version": "1.0.0",
+  "description": "this plugin injects a script that preloads chunks according to the react router plain objects and the current URL path",
+  "homepage": "https://github.com/FogelAI/html-webpack-preload-react-router",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "FogelAI/html-webpack-preload-react-router"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/parser": "^7.21.3",
+    "@babel/types": "^7.21.3",
+    "@babel/generator": "^7.14.5",
+    "@babel/traverse": "^7.15.0",
+    "webpack": "^5.88.1",
+    "html-webpack-plugin": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "webpack": "^5.88.1",
+    "html-webpack-plugin": "^5.0.0"
+  }
+}
