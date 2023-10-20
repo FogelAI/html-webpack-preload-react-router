@@ -2,7 +2,8 @@
 
 A webpack plugin that injects an inline script tag to preload chunks based on react router plain objects and the current URL path. It preloads only the relevant chunks for the current page.
 
-Note: This is an extension plugin for *[html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)* - a plugin that simplifies the creation of HTML files to serve your webpack bundles.
+**Note**: This is an extension plugin for *[html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)* - a plugin that simplifies the creation of HTML files to serve your webpack bundles. <br>
+To have a deeper understanding with example, I recommend you to read the article, [*Boost Your Webpage Load Performance with the new Webpack plugin*](https://dev.to/fogel/boost-your-webpage-load-performance-with-the-new-webpack-plugin-1kko).
 
 ## Introduction
 
@@ -80,4 +81,4 @@ export const mainRoutes = [{
 
 ## Recommendation for an article
 
-I recommend reading my article, *Boost Your Webpage Load Performance with the new Webpack plugin*. It includes an example of using this Webpack plugin and explains how to make your react router plain objects a single source of truth for three different purposes.
+I recommend reading my article, [*Boost Your Webpage Load Performance with the new Webpack plugin*](https://dev.to/fogel/boost-your-webpage-load-performance-with-the-new-webpack-plugin-1kko). It includes an example of using this Webpack plugin and explains how to make your react router plain objects a single source of truth for three different purposes.
